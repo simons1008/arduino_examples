@@ -1,5 +1,5 @@
 # arduino_examples
 
-- Zustandsmaschine "LED-Ampel"
-- Euler-Winkel vom BNO055 lesen
+- LED-Ampel mit einer Zustandsmaschine steuern
+- BNO055 Absolute Orientation Sensor: Euler-Winkel lesen
 
