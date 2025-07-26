@@ -5,7 +5,8 @@
 // GELB
 // ROT
 // Zustandsübergänge mit Taste1 und Taste2
-//
+// Quellen: https://github.com/hobbyelektroniker/StateMachine sm7
+//          https://github.com/jrullan/StateMachine
 // Erstellt: 12.08.2022 (Si)
 
 // Bibliotheken einbinden

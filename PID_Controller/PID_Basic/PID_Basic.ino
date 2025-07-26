@@ -2,6 +2,7 @@
  * PID Basic Example
  * Reading analog input 0 to control analog PWM output 3
  ********************************************************/
+ /* Quelle: Arduino Library PID by Brett Beauregard - Examples */
 
 #include <PID_v1.h>
 

@@ -25,6 +25,7 @@
  *	 Revision: 1.2
  *
  */
+/* Quelle: Arduino Library BNO055 by ROBERT BOSCH GMBH - Examples */
 
 #include "BNO055_support.h"		//Contains the bridge code between the API and Arduino
 #include <Wire.h>

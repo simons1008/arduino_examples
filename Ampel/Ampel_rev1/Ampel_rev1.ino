@@ -4,6 +4,8 @@
 * Taste2 schaltet den Zustandsübergang GRUEN - ROT
 * In allen Zuständen wird 1x geblinkt
 * Einsatz der Bibliothek StateMachine
+* Quellen: https://github.com/hobbyelektroniker/StateMachine sm7
+*          https://github.com/jrullan/StateMachine
 * Erstellt: 11.08.2022 (Si)
 ***********************************/
 #include <StateMachine.h>
