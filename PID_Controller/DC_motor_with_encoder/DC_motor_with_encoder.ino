@@ -13,7 +13,7 @@
 
 #include <util/atomic.h> // For the ATOMIC_BLOCK macro
 
-#define ENCA 2
+#define ENCA 2 // wiring shall be ENCA 3 and ENCB 2, cannot find reason
 #define ENCB 3
 #define PWM 5
 #define IN2 6

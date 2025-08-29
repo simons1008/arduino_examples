@@ -4,7 +4,7 @@
  * method1 calculates the velocity in the loop() function.
  * method2 calculates the velocity in the interrupt service routine.
  * method2 is more accurate than method1. Only method1 can measure zero velocity.
- * PID Control data are recorded with both methods:
+ * PID Control data can be recorded with both methods:
  * - with method1 calculated velocity 
  * - with method2 calculated velocity and subsequent low pass filtering
  * The target velocity vt is a rectangular function. 
