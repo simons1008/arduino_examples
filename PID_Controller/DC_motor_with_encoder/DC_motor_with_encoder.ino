@@ -5,15 +5,16 @@
 
 /************************************************************************** 
  * Quelle: https://github.com/curiores/ArduinoTutorials/tree/main/encoderControl/part4 
- * Geändert: Zeile 45: Sinusfunktion mit 10-facher Frequenz
- *           Zeile 49: kp erniedrigt
- *           Zeile 51: kd erhöht
- *           Zeile 69: Korrektur: Zielgröße positiv, Rückführung negativ
+ * Geändert: Zeile 16/17: Kabelfarben entfernt
+ *           Zeile    48: kd erhöht
+ *           Zeile    66: Korrektur: Zielgröße positiv, Rückführung negativ 
+ *             (die Autorin hatte die Motorleitungen verdreht angeschlossen)
+ *           Zeile    97: Serial Output mit Doppelpunkt (für EXCEL)
  **************************************************************************/
 
 #include <util/atomic.h> // For the ATOMIC_BLOCK macro
 
-#define ENCA 2 // wiring shall be ENCA 3 and ENCB 2, cannot find reason
+#define ENCA 2
 #define ENCB 3
 #define PWM 5
 #define IN2 6
@@ -41,14 +42,11 @@ void loop() {
 
   // set target position
   //int target = 1200;
-  //int target = 250*sin(prevT/1e6);
-  int target = 250*sin(prevT/1e5);
+  int target = 250*sin(prevT/1e6);
 
   // PID constants
-  // float kp = 1;
-  float kp = 0.7;
-  //float kd = 0.025;
-  float kd = 0.07;
+  float kp = 1;
+  float kd = 0.2;
   float ki = 0.0;
 
   // time difference
@@ -97,7 +95,7 @@ void loop() {
   eprev = e;
 
   Serial.print(target);
-  Serial.print(" ");
+  Serial.print(":");
   Serial.print(pos);
   Serial.println();
 }
