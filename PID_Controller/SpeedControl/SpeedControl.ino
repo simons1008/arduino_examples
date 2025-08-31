@@ -89,7 +89,7 @@ void loop() {
 
   // Set a target
   float a = 100; 
-  float vt = 2*a*(sin(currT/1e6)>0) - a;
+  float vt = 2*a*(sin((6.28/20)*currT/1e6)>0) - a; // period 20 seconds
 
   // Compute the control signal u
   float kp = 5;
