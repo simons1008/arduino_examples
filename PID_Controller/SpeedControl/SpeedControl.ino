@@ -24,11 +24,11 @@
 #define ENCA 2
 #define ENCB 3
 #define PWM 5
-#define IN1 6
-#define IN2 7
+#define IN2 6
+#define IN1 7
 
 // motor characteristics
-float PPR = 1050.0; // 7 encoder poles x 150 gear ratio
+float PPR = 300.0; // 16 encoder poles x 18.75 gear ratio
 
 // globals
 long prevT = 0;
