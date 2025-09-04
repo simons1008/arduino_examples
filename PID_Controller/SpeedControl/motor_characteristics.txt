@@ -1,0 +1,10 @@
+Motor 1 - Waveshare_N20
+=======================
+// motor characteristics
+float PPR = 1050.0; // 7 encoder poles x 150 gear ratio
+
+Motor 2 - Pololu_37D
+====================
+// motor characteristics
+float PPR = 300.0; // 16 encoder poles x 18.75 gear ratio
+
