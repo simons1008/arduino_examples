@@ -12,7 +12,7 @@
 
 /************************************************************************
  * Quelle: https://github.com/curiores/ArduinoTutorials/tree/main/SpeedControl
- * Geändert: Zeile      31: Gilt für Motor "Waveshare N20 DC Getriebemotor"
+ * Geändert: Zeile      31: Gilt für Motor "Pololu 37D 19:1"
  *           Zeile  81/ 82: RPM Berechnung mit den Eigenschaften des Motors
  *           Zeile  91/ 92: Die Rechteckfunktion schwingt um Null
  *           Zeile      98: Optionale Berechnung mit Methode2
@@ -27,7 +27,7 @@
 #define IN2 6
 #define IN1 7
 
-// motor characteristics
+// motor characteristics - Pololu 37D 19:1
 float PPR = 300.0; // 16 encoder poles x 18.75 gear ratio
 
 // globals
