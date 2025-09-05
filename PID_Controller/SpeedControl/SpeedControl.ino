@@ -4,7 +4,7 @@
  * method1 calculates the velocity in the loop() function.
  * method2 calculates the velocity in the interrupt service routine.
  * method2 is more accurate than method1. Only method1 can measure zero velocity.
- * PID Control data can be recorded with both methods:
+ * PID Control data can be generated with both methods:
  * - with method1 calculated velocity 
  * - with method2 calculated velocity and subsequent low pass filtering
  * The target velocity vt is a rectangular function. 
@@ -12,11 +12,12 @@
 
 /************************************************************************
  * Quelle: https://github.com/curiores/ArduinoTutorials/tree/main/SpeedControl
- * Geändert: Zeile      31: Gilt für Motor "Pololu 37D 19:1"
- *           Zeile  81/ 82: RPM Berechnung mit den Eigenschaften des Motors
- *           Zeile  91/ 92: Die Rechteckfunktion schwingt um Null
- *           Zeile      98: Optionale Berechnung mit Methode2
- *           Zeile 115/118: Variablennamen mit Doppelpunkt vorangestellt
+ * Geändert: Zeile      32: Gilt für Motor "Pololu 37D 19:1"
+ *           Zeile  82/ 83: RPM Berechnung mit den Eigenschaften des Motors
+ *           Zeile  92/ 93: Die Rechteckfunktion schwingt um Null
+ *           Zeile      94: Optionale Rechteckfunktion mit Basis Null
+ *           Zeile     100: Optionale Berechnung mit Methode2
+ *           Zeile 117-122: Variablennamen mit Doppelpunkt vorangestellt
  ************************************************************************/
 #include <util/atomic.h>
 
@@ -90,6 +91,7 @@ void loop() {
   // Set a target
   float a = 100; 
   float vt = 2*a*(sin((6.28/20)*currT/1e6)>0) - a; // period 20 seconds
+  // float vt = a*(sin((6.28/20)*currT/1e6)>0); // period 20 seconds
 
   // Compute the control signal u
   float kp = 5;
