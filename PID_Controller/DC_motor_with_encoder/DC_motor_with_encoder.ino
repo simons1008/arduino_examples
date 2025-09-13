@@ -5,11 +5,14 @@
 
 /************************************************************************** 
  * Quelle: https://github.com/curiores/ArduinoTutorials/tree/main/encoderControl/part4 
- * Geändert: Zeile 16/17: Kabelfarben entfernt
- *           Zeile    48: kd erhöht
- *           Zeile    66: Korrektur: Zielgröße positiv, Rückführung negativ 
+ * Geändert: Zeile   19/20: Kabelfarben entfernt
+ *           Zeile      31: Baudrate erhöht
+ *           Zeile      48: neue Zielfunktion: periodische Sprungfunktion
+ *           Zeile   51/52: kp und kd erhöht
+ *           Zeile      71: Korrektur: Zielgröße positiv, Rückführung negativ 
  *             (die Autorin hatte die Motorleitungen verdreht angeschlossen)
- *           Zeile    97: Serial Output mit Doppelpunkt (für EXCEL)
+ *           Zeile 102-105: Serial Output mit Doppelpunkt (für EXCEL)
+ *           Zeile     106: delay() steuert die Abtastrate  
  **************************************************************************/
 
 #include <util/atomic.h> // For the ATOMIC_BLOCK macro
@@ -26,7 +29,7 @@ float eprev = 0;
 float eintegral = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(ENCA,INPUT);
   pinMode(ENCB,INPUT);
   attachInterrupt(digitalPinToInterrupt(ENCA),readEncoder,RISING);
@@ -42,12 +45,14 @@ void loop() {
 
   // set target position
   //int target = 1200;
-  int target = 250*sin(prevT/1e6);
+  //int target = 250*sin(prevT/1e6);
+  int target = 3000*(sin(6.28/20*prevT/1e6)>0); // period 20 seconds
 
   // PID constants
-  float kp = 1;
+  float kp = 1.2;
   float kd = 0.2;
   float ki = 0.0;
+
 
   // time difference
   long currT = micros();
@@ -94,10 +99,13 @@ void loop() {
   // store previous error
   eprev = e;
 
+  Serial.print("target:");
   Serial.print(target);
   Serial.print(":");
+  Serial.print("pos:");
   Serial.print(pos);
   Serial.println();
+  delay(20); // controls the sampling rate
 }
 
 void setMotor(int dir, int pwmVal, int pwm, int in1, int in2){
