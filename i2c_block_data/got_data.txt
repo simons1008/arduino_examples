@@ -1,0 +1,302 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2025.10.05 23:19:02 =~=~=~=~=~=~=~=~=~=~=~=
+I2C Ready!
+Got data: 99 
+data sent
+Got data: 98 241 244 250 255 
+Got data: 99 
+data sent
+Got data: 98 242 244 250 0 
+Got data: 99 
+data sent
+Got data: 98 243 244 250 1 
+Got data: 99 
+data sent
+Got data: 98 244 244 250 2 
+Got data: 99 
+data sent
+Got data: 98 245 244 250 3 
+Got data: 99 
+data sent
+Got data: 98 246 244 250 4 
+Got data: 99 
+data sent
+Got data: 98 247 244 250 5 
+Got data: 99 
+data sent
+Got data: 98 248 244 250 6 
+Got data: 99 
+data sent
+Got data: 98 249 244 250 7 
+Got data: 99 
+data sent
+Got data: 98 250 244 250 8 
+Got data: 99 
+data sent
+Got data: 98 251 244 250 9 
+Got data: 99 
+data sent
+Got data: 98 252 244 250 10 
+Got data: 99 
+data sent
+Got data: 98 253 244 250 11 
+Got data: 99 
+data sent
+Got data: 98 254 244 250 12 
+Got data: 99 
+data sent
+Got data: 98 255 244 250 13 
+Got data: 99 
+data sent
+Got data: 98 0 244 250 14 
+Got data: 99 
+data sent
+Got data: 98 1 244 250 15 
+Got data: 99 
+data sent
+Got data: 98 2 244 250 16 
+Got data: 99 
+data sent
+Got data: 98 3 244 250 17 
+Got data: 99 
+data sent
+Got data: 98 4 244 250 18 
+Got data: 99 
+data sent
+Got data: 98 5 244 250 19 
+Got data: 99 
+data sent
+Got data: 98 6 244 250 20 
+Got data: 99 
+data sent
+Got data: 98 7 244 250 21 
+Got data: 99 
+data sent
+Got data: 98 8 244 250 22 
+Got data: 99 
+data sent
+Got data: 98 9 244 250 23 
+Got data: 99 
+data sent
+Got data: 98 10 244 250 24 
+Got data: 99 
+data sent
+Got data: 98 11 244 250 25 
+Got data: 99 
+data sent
+Got data: 98 12 244 250 26 
+Got data: 99 
+data sent
+Got data: 98 13 244 250 27 
+Got data: 99 
+data sent
+Got data: 98 14 244 250 28 
+Got data: 99 
+data sent
+Got data: 98 15 244 250 29 
+Got data: 99 
+data sent
+Got data: 98 16 244 250 30 
+Got data: 99 
+data sent
+Got data: 98 17 244 250 31 
+Got data: 99 
+data sent
+Got data: 98 18 244 250 32 
+Got data: 99 
+data sent
+Got data: 98 19 244 250 33 
+Got data: 99 
+data sent
+Got data: 98 20 244 250 34 
+Got data: 99 
+data sent
+Got data: 98 21 244 250 35 
+Got data: 99 
+data sent
+Got data: 98 22 244 250 36 
+Got data: 99 
+data sent
+Got data: 98 23 244 250 37 
+Got data: 99 
+data sent
+Got data: 98 24 244 250 38 
+Got data: 99 
+data sent
+Got data: 98 25 244 250 39 
+Got data: 99 
+data sent
+Got data: 98 26 244 250 40 
+Got data: 99 
+data sent
+Got data: 98 27 244 250 41 
+Got data: 99 
+data sent
+Got data: 98 28 244 250 42 
+Got data: 99 
+data sent
+Got data: 98 29 244 250 43 
+Got data: 99 
+data sent
+Got data: 98 30 244 250 44 
+Got data: 99 
+data sent
+Got data: 98 31 244 250 45 
+Got data: 99 
+data sent
+Got data: 98 32 244 250 46 
+Got data: 99 
+data sent
+Got data: 98 33 244 250 47 
+Got data: 99 
+data sent
+Got data: 98 34 244 250 48 
+Got data: 99 
+data sent
+Got data: 98 35 244 250 49 
+Got data: 99 
+data sent
+Got data: 98 36 244 250 50 
+Got data: 99 
+data sent
+Got data: 98 37 244 250 51 
+Got data: 99 
+data sent
+Got data: 98 38 244 250 52 
+Got data: 99 
+data sent
+Got data: 98 39 244 250 53 
+Got data: 99 
+data sent
+Got data: 98 40 244 250 54 
+Got data: 99 
+data sent
+Got data: 98 41 244 250 55 
+Got data: 99 
+data sent
+Got data: 98 42 244 250 56 
+Got data: 99 
+data sent
+Got data: 98 43 244 250 57 
+Got data: 99 
+data sent
+Got data: 98 44 244 250 58 
+Got data: 99 
+data sent
+Got data: 98 45 244 250 59 
+Got data: 99 
+data sent
+Got data: 98 46 244 250 60 
+Got data: 99 
+data sent
+Got data: 98 47 244 250 61 
+Got data: 99 
+data sent
+Got data: 98 48 244 250 62 
+Got data: 99 
+data sent
+Got data: 98 49 244 250 63 
+Got data: 99 
+data sent
+Got data: 98 50 244 250 64 
+Got data: 99 
+data sent
+Got data: 98 51 244 250 65 
+Got data: 99 
+data sent
+Got data: 98 52 244 250 66 
+Got data: 99 
+data sent
+Got data: 98 53 244 250 67 
+Got data: 99 
+data sent
+Got data: 98 54 244 250 68 
+Got data: 99 
+data sent
+Got data: 98 55 244 250 69 
+Got data: 99 
+data sent
+Got data: 98 56 244 250 70 
+Got data: 99 
+data sent
+Got data: 98 57 244 250 71 
+Got data: 99 
+data sent
+Got data: 98 58 244 250 72 
+Got data: 99 
+data sent
+Got data: 98 59 244 250 73 
+Got data: 99 
+data sent
+Got data: 98 60 244 250 74 
+Got data: 99 
+data sent
+Got data: 98 61 244 250 75 
+Got data: 99 
+data sent
+Got data: 98 62 244 250 76 
+Got data: 99 
+data sent
+Got data: 98 63 244 250 77 
+Got data: 99 
+data sent
+Got data: 98 64 244 250 78 
+Got data: 99 
+data sent
+Got data: 98 65 244 250 79 
+Got data: 99 
+data sent
+Got data: 98 66 244 250 80 
+Got data: 99 
+data sent
+Got data: 98 67 244 250 81 
+Got data: 99 
+data sent
+Got data: 98 68 244 250 82 
+Got data: 99 
+data sent
+Got data: 98 69 244 250 83 
+Got data: 99 
+data sent
+Got data: 98 70 244 250 84 
+Got data: 99 
+data sent
+Got data: 98 71 244 250 85 
+Got data: 99 
+data sent
+Got data: 98 72 244 250 86 
+Got data: 99 
+data sent
+Got data: 98 73 244 250 87 
+Got data: 99 
+data sent
+Got data: 98 74 244 250 88 
+Got data: 99 
+data sent
+Got data: 98 75 244 250 89 
+Got data: 99 
+data sent
+Got data: 98 76 244 250 90 
+Got data: 99 
+data sent
+Got data: 98 77 244 250 91 
+Got data: 99 
+data sent
+Got data: 98 78 244 250 92 
+Got data: 99 
+data sent
+Got data: 98 79 244 250 93 
+Got data: 99 
+data sent
+Got data: 98 80 244 250 94 
+Got data: 99 
+data sent
+Got data: 98 81 244 250 95 
+Got data: 99 
+data sent
+Got data: 98 82 244 250 96 
+Got data: 99 
+data sent
+Got data: 98 83 244 250 97 
+Got data: 99 
+data sent
+Got data: 98 84 244 250 98 
