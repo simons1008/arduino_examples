@@ -11,7 +11,7 @@
  */
 // Quelle: https://community.element14.com/products/arduino/b/blog/posts/raspberry-pi-and-arduino-i2c-communication
 // Geändert: Serial output ergänzt
-//           LED leuchtet wenn i2cData == 255
+//           LED leuchtet wenn i2cData ungerade
 // Getestet mit Arduino UNO R3 und Raspberry Pi 4 B 
 
 #include <Wire.h>
@@ -35,7 +35,7 @@ void receiveData(int byteCount) {
     i2cData = Wire.read();
     Serial.print("i2cData:");
     Serial.println(i2cData);
-    if (i2cData == 255) {
+    if (i2cData % 2) {
       digitalWrite(LED, 1);
     }
     else {
